@@ -1,0 +1,180 @@
+@font-face {
+    font-family: Proxima Nova Bold;
+    src: url('../fonts/Proxima Nova Bold.otf');
+}
+body{
+    margin: 0;
+}
+.block {
+    width: 1500px;
+    height: 600px;
+    background: url(../images/1.png);
+    color: #aac4c4;
+}
+.block >div{
+    overflow: hidden;
+}
+.block nav
+{
+    margin: 25px 220px 0 0;
+    float: right;
+}
+
+.block .part1 {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    }
+
+.block .part1 li {
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 10px;
+}
+
+.block a {
+    color: #aac4c4;
+    text-decoration: none;
+    }
+
+.block a:hover {
+    text-decoration: underline;
+}
+
+.block .part1 li.cat {
+
+    background-color: #b3caca;
+    border-bottom: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.block li.cat a:hover {
+    text-decoration: none;
+}
+
+
+.block .part1 li.cat a {
+    color: #ffffff;
+    font-size: 12px;
+}
+.block .wapik {
+    display: block;
+    font-size: 29px;
+    margin: 33px 0 0 220px;
+    text-transform: uppercase;
+    float: left;
+    font-family: Proxima Nova Bold;
+    line-height:0.8;
+}
+.block .line {
+    display: block;
+    float: left;
+    margin: 33px 0 0 26px;
+    border-left: 1px solid #b3caca;
+    height: 20px;
+        }
+.block .tel {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+    margin: 35px 0 0 25px;
+    background: url(../images/tel.png);
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+}
+.block .welcome {
+    margin: 240px 0 0 220px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    color: #ffffff;
+    clear: both;
+}
+.block .text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #d9e4e4;
+    display: block;
+    margin: 10px 0 0 220px;
+    width: 600px;
+}
+.block .more {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #d7e1e1;
+    text-transform: uppercase;
+    display: block;
+    margin: 23px 0 0 220px;
+    background-color:#6fb048;
+    cursor: pointer;
+    width: 185px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 23px 0 23px 0;
+    line-height: 2px;
+          }
+
+.block a:hover {
+    text-decoration: none;
+}
+.kva {
+    width: 1500px;
+   }
+.kva .best {
+    margin: 95px 0 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: #0f5f5c;
+    text-align: center;
+}
+
+.kva .line2 {
+    margin: 20px 720px 20px 720px;
+    border-top: 1px solid #6fb048;
+}
+.kva .miay {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #acc4c3;
+    text-align: center;
+}
+.tabl {
+    width: 1500px;
+    height: 175px;
+    font-family: 'Roboto', sans-serif;
+    margin: 70px 0 0 0;
+    list-style: none;
+    font-size: 14px;
+    color: #83a7a5;
+    text-align: center;
+
+}
+.title{
+    font-size: 16px;
+    color: #0f5f5c;
+  }
+.tabl li {
+    width: 332.5px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.cross {
+    width: 1500px;
+    margin: 180px 220px 0 220px;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+
+}
+
+.cross li {
+    width: 495px;
+    display: inline-block;
+    margin: 0px 35px 70px 35px;
+}
