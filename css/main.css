@@ -19,7 +19,6 @@ body{
     margin: 25px 220px 0 0;
     float: right;
 }
-
 .block .part1 {
     list-style: none;
     font-family: 'Montserrat', sans-serif;
@@ -28,24 +27,19 @@ body{
     margin: 0;
     padding: 0;
     }
-
 .block .part1 li {
     float: left;
     margin: 0 5px 0 0;
     padding: 10px;
 }
-
 .block a {
     color: #aac4c4;
     text-decoration: none;
     }
-
 .block a:hover {
     text-decoration: underline;
 }
-
 .block .part1 li.cat {
-
     background-color: #b3caca;
     border-bottom: none;
     cursor: pointer;
@@ -54,8 +48,6 @@ body{
 .block li.cat a:hover {
     text-decoration: none;
 }
-
-
 .block .part1 li.cat a {
     color: #ffffff;
     font-size: 12px;
@@ -119,7 +111,6 @@ body{
     padding: 23px 0 23px 0;
     line-height: 2px;
           }
-
 .block a:hover {
     text-decoration: none;
 }
@@ -133,7 +124,6 @@ body{
     color: #0f5f5c;
     text-align: center;
 }
-
 .kva .line2 {
     margin: 20px 720px 20px 720px;
     border-top: 1px solid #6fb048;
@@ -153,7 +143,6 @@ body{
     font-size: 14px;
     color: #83a7a5;
     text-align: center;
-
 }
 .title{
     font-size: 16px;
@@ -164,17 +153,99 @@ body{
     display: inline-block;
     margin: 0 10px;
 }
-
 .cross {
     width: 1500px;
-    margin: 180px 220px 0 220px;
+    margin: 180px 185px 70px 220px;
     font-family: 'Roboto', sans-serif;
     list-style: none;
-
 }
-
 .cross li {
     width: 495px;
     display: inline-block;
-    margin: 0px 35px 70px 35px;
+    margin: 0 35px 70px 35px;
+}
+.cross .k5 {
+    background: url(../images/5.png);
+    }
+.cross .k6 {
+    background: url(../images/6.png);
+}
+.cross .k7 {
+    background: url(../images/7.png);
+}
+.cross .k8 {
+    background: url(../images/8.png);
+}
+.cross .k9 {
+    background-repeat: no-repeat;
+    padding: 0 0 10px 50px;
+    margin: 0;
+}
+.telephone {
+    width: 1500px;
+    font-family: 'Roboto', sans-serif;
+    background: #eef1ec;
+}
+.telephone .font {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 32px;
+    color: #0f5f5c;
+    margin: 145px 0 15px;
+   }
+.telephone .cat {
+    margin: 75px 0 10px;
+    text-align: center;
+        }
+.telephone .line {
+    border-top: 1px solid #6fb048;
+    margin: 0 715px 20px 715px;
+}
+.telephone .text {
+    text-align: center;
+    font-size: 15px;
+    color: #83a7a5;
+}
+.telephone .home {
+    margin: 25px 90px 0 240px;
+}
+.telephone .right {
+    margin: 10px 225px 0 0;
+    float: right;
+    width: 490px;
+}
+.telephone .abc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #83a7a5;
+    line-height: 1.5;
+}
+.telephone .ab {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #83a7a5;
+    line-height: 1.5;
+    list-style: none;
+    margin: 10px 0 0;
+    padding:0;
+    }
+.telephone li {
+    background: url(../images/circle.png);
+    background-repeat: no-repeat;
+    padding:0 0 15px 35px;
+}
+.girl {
+    width: 1500px;
+}
+.girl .text {
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #83a7a5;
+    text-align: center;
+    float: left;
+    margin:230px 0 25px 222px;
+    width: 510px;
+}
+.girl .home {
+    margin: 140px 222px 140px 135px;
 }
