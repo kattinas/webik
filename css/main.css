@@ -149,7 +149,7 @@ body{
     color: #0f5f5c;
   }
 .tabl li {
-    width: 332.5px;
+    width: 333px;
     display: inline-block;
     margin: 0 10px;
 }
@@ -185,7 +185,7 @@ body{
     width: 1500px;
     font-family: 'Roboto', sans-serif;
     background: #eef1ec;
-}
+    }
 .telephone .font {
     font-family: 'Roboto Light', sans-serif;
     font-size: 32px;
@@ -235,17 +235,199 @@ body{
 }
 .girl {
     width: 1500px;
+    overflow: hidden
 }
 .girl .text {
     font-family: 'Merriweather', serif;
     font-size: 22px;
     line-height: 1.5;
     color: #83a7a5;
-    text-align: center;
+    text-align: left;
     float: left;
-    margin:230px 0 25px 222px;
+    margin:230px 0 0 222px;
     width: 510px;
 }
 .girl .home {
     margin: 140px 222px 140px 135px;
+}
+.girl .val {
+    color: #6fb048;
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 14px;
+    margin: 25px 0 10px 0;
+    text-align: left;
+}
+.girl .dir {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 14px;
+   }
+.map {
+    width: 1500px;
+    background: #eef1ec;
+}
+.map .text {
+    font-family: 'Roboto Light', sans-serif;
+    color: #0f5f5c;
+    line-height: 1.5;
+    text-align: left;
+    float: left;
+    width: 495px;
+    margin: 170px 0 0 222px;
+}
+.map h1 {
+    font-size: 32px;
+    margin: 0;
+}
+.map .ex {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 14px;
+    margin: 20px 0 20px;
+    color: #83a7a5;
+}
+.map .home {
+    margin: 60px 0 90px 65px;
+}
+.plan {width: 1500px;
+}
+.plan h1 {
+    text-align: center;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 32px;
+    color: #085f5c;
+    margin: 97px 0 15px;
+}
+.plan .line {
+    margin: 0 720px 20px 720px;
+    border-top: 1px solid #6fb048;
+}
+.plan .fusce {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #83a7a5;
+    margin: 0 500px 40px;
+}
+.plan ul {
+    list-style: none;
+    margin: 40px 370px 80px 369px;
+    float: left;
+    padding: 0;
+    border: 1px solid #c1d3d2;
+}
+.plan li {
+    width: 252px;
+    float: left;
+}
+.plan .basic {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 15px;
+    color: #79b554;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 29px 0 30px 0;
+}
+.plan .price {
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 65px;
+    color: #0f5f5c;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    }
+.plan .month {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #0f5f5c;
+    display: block;
+    font-weight: bold;
+    margin: 0 0 17px;
+}
+.plan .kva {
+    width: 253px;
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #83a7a5;
+}
+.plan .kva p {
+    margin: 8px 0;
+}
+.plan a {
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color:#83a7a5;
+    cursor: pointer;
+    border-radius: 2px;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 17px 55px 30px 55px;
+    padding: 15px 25px;
+    display: block;
+}
+.plan .green {
+    background-color: #6fb048;
+}
+.plan .border {
+    border-left: 1px solid #c1d3d2;
+    border-right: 1px solid #c1d3d2;
+}
+.tail {
+    width: 1500px;
+}
+.tail .include {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: #0f5f5c;
+    }
+.tail .line {
+    border-top: 1px solid #6fb048;
+    margin: 20px 718px 35px 718px;
+}
+.tail ul {
+    list-style: none;
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 14px;
+    color: #83a7a5;
+    height: 155px;
+    width: 1500px;
+    margin: 0 0 45px 220px;
+    }
+.tail li {
+    background: url(../images/notes.png);
+    background-repeat: no-repeat;
+    padding:0 0 15px 35px;
+    margin: 5px 0;
+    display: block;
+    float: left;
+    width: 30%;
+}
+.end {
+    width: 1500px;
+}
+.end .help {
+    margin: 0 720px 15px;
+}
+.end .line {
+    border-top: 1px solid #6fb048;
+    margin: 20px 718px 35px 718px;
+    }
+.end .text {
+    margin: 20px 480px 40px;
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 15px;
+    color: #83a7a5;
+    text-align: center;
+    }
+.end a {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 14px;
+    color: #0f5f5c;
+    text-align: center;
+    text-decoration: none;
+
 }
