@@ -429,5 +429,88 @@ body{
     color: #0f5f5c;
     text-align: center;
     text-decoration: none;
-
+    margin: 0 665px 95px;
 }
+.download {
+    overflow: hidden;
+    width: 1500px;
+    height: 200px;
+    background: url(../images/download.png);
+}
+.download .text {
+    width: 548px;
+    margin: 80px 0 0 222px;
+}
+.download .text h1 {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 28px;
+    color: #0f5f5c;
+    margin: 0;
+}
+.download .text p {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 15px;
+    color: #83a7a5;
+    margin: 5px 0 0 0;
+    float: left;
+}
+.download a {
+    display: block;
+    float: right;
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color:#6fb048;
+    cursor: pointer;
+    border-radius: 2px;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 22px;
+    margin: -30px 222px 0 0;
+}
+footer {
+    width: 1500px;
+    margin: 95px 222px 0 222px;
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 13px;
+    color: #83a7a5;
+}
+footer .wapik {
+    width: 188px;
+}
+footer .wapik h1 {
+    font-family: Proxima Nova Bold;
+    font-size: 22px;
+    color: #0f5f5c;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 17px 0 10px;
+    }
+footer .h {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 13px;
+    color: #0f5f5c;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    text-decoration: none;
+}
+footer .tel{
+    text-decoration: none;
+    color: #0f5f5c;
+    font-style: normal;
+    margin-bottom: 7px;
+    }
+footer .wapik .zz {
+    margin-left: 13px;
+}
+footer .company {
+    width: 65px;
+    float: left;
+}
+footer .company h1 {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 13px;
+    color: #83a7a5;
+    }
