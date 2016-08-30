@@ -4,7 +4,8 @@
 }
 body{
     margin: 0;
-}
+    width: 1500px;
+    }
 .block {
     width: 1500px;
     height: 600px;
@@ -473,13 +474,15 @@ body{
 }
 footer {
     width: 1500px;
-    margin: 100px 222px 0 222px;
+    margin: 100px 0 0;
     font-family: 'Roboto Regular', sans-serif;
     font-size: 13px;
     color: #83a7a5;
 }
 footer .wapik {
-    width: 273px;
+    width: 271px;
+    float: left;
+    padding-left: 222px;
 }
 footer .wapik h1 {
     font-family: Proxima Nova Bold;
@@ -516,16 +519,79 @@ footer .wapik .zz {
     font-style: normal;
     }
 footer .company {
-    width: 272px;
+    width: 271px;
     float: left;
+   }
+footer ul {
+    padding: 0;
+    list-style: none;
 }
 footer li {
-    width: 272px;
-    list-style: none;
-
+    margin-bottom: 18px;
 }
-footer .company h1 {
-    font-family: 'Roboto Medium', sans-serif;
+footer a {
+    font-family: 'Roboto Regular', sans-serif;
     font-size: 13px;
     color: #83a7a5;
+    text-decoration: none;
+}
+footer h1 {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 13px;
+    color: #0f5f5c;
+    margin: 0 0 20px;
     }
+footer .others {
+    width: 273px;
+    float: left;
+    }
+footer .new {
+    float: left;
+    width: 240px;
+    margin-right: 222px;
+
+}
+footer form{
+    position: relative;
+
+   }
+footer .new input {
+    border: none;
+    border-radius: 2px;
+    width: 225px;
+    padding: 13px 0 13px 15px;
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 13px;
+    color: #83a7a5;
+    background-color:#eef1ec;
+    margin: 0;
+}
+footer .new input::-webkit-input-placeholder { color: #83a7a5; }
+footer .new img {
+    position: absolute;
+    right: 40px;
+    top: 9px;
+    padding: 0;
+}
+footer .all {
+    font-size: 12px;
+    clear: both;
+    overflow: hidden;
+    }
+footer .all .line {
+    margin: 42px 0 30px 224px;
+    border-top: 1px solid #eef1ec;
+    width: 1053px;
+}
+footer .all .text {
+    margin-left: 222px;
+    display: block;
+    float: left;
+}
+footer .all .image {
+    float: right;
+    padding: 0 210px 15px 0;
+}
+footer .all .image img {
+    padding-right: 10px;
+}
